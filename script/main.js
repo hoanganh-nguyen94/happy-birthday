@@ -19,7 +19,7 @@ const fetchData = () => {
         // Run amimation if so
         if ( dataArr.length === dataArr.indexOf(customData) + 1 ) {
           animationTimeline();
-        } 
+        }
       });
     });
 };
@@ -293,7 +293,7 @@ const animationTimeline = () => {
     );
 
   // tl.seek("currentStep");
-  // tl.timeScale(2);
+  // tl.timeScale(5);
 
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
